@@ -1,0 +1,10 @@
+clear
+gcc arvore.h fila.h hash.h lista.h pilha.h arvore.c fila.c hash.c lista.c pilha.c main.c
+./a.out
+echo
+rm a.out
+rm arvore.h.gch
+rm fila.h.gch
+rm hash.h.gch
+rm lista.h.gch
+rm pilha.h.gch
